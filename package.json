@@ -1,0 +1,39 @@
+{
+  "name": "rev-replace-brunch",
+  "version": "0.0.1",
+  "description": "Brunch Plugin to Reversion files in index.html",
+  "main": "dist/index.js",
+  "config": {
+    "src": "src",
+    "dist": "dist"
+  },
+  "scripts": {
+    "dev": "brunch watch",
+    "prod": "brunch build --production",
+    "prepub": "rm -rf $npm_package_config_dist && npm run prod",
+    "pub": "npm version patch && git push --follow-tags",
+    "postpub": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhishekisnot/rev-replace-brunch.git"
+  },
+  "keywords": [
+    "brunch",
+    "brunch-plugin",
+    "brunchplugin",
+    "reversion",
+    "rev",
+    "rev-replace"
+  ],
+  "author": "Abhishek Shende <abhishekisnot@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhishekisnot/rev-replace-brunch/issues"
+  },
+  "homepage": "https://github.com/abhishekisnot/rev-replace-brunch#readme",
+  "devDependencies": {
+    "brunch": "^2.8.2",
+    "coffee-script-brunch": "^2.1.0"
+  }
+}
