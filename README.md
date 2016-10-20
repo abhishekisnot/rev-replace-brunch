@@ -1,13 +1,13 @@
-# brunch-plugin-seed
+# rev-replace-brunch
 
-Brunch Plugin scaffold with Brunch
+Brunch Plugin to Reversion files in index.html
 
 ## Instructions
 
 To get started, simply run the following command in your terminal...
 
 ```bash
-brunch new <awesome-brunch> --skeleton abhishekisnot/brunch-plugin-seed
+brunch new <awesome-brunch> --skeleton abhishekisnot/rev-replace-brunch
 ```
 
 To run application in development mode:
