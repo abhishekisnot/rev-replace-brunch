@@ -1,6 +1,6 @@
 {
   "name": "rev-replace-brunch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Brunch Plugin to Reversion files in index.html",
   "main": "dist/index.js",
   "config": {
