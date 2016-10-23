@@ -1,26 +1,16 @@
 # rev-replace-brunch
 
-Brunch Plugin to Reversion files in index.html
+Brunch Plugin to reversion files in index.html
 
-## Instructions
+## Summary
 
-To get started, simply run the following command in your terminal...
+This plugin is intended to be used with [fingerprint-brunch](https://github.com/dlepaux/fingerprint-brunch).
 
-```bash
-brunch new <awesome-brunch> --skeleton abhishekisnot/rev-replace-brunch
-```
+It compliments fingerprint-brunch by replacing the script and style references in `public/index.html` based on the manifest description.
 
-To run application in development mode:
+## Usage
 
-```bash
-npm run dev
-```
-
-To build application in production mode:
-
-```bash
-npm run prod
-```
+```npm install rev-replace-brunch --save-dev```
 
 ## Donations
 
