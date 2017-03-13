@@ -1,5 +1,7 @@
 # rev-replace-brunch
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/osdevisnot/rev-replace-brunch.svg)](https://greenkeeper.io/)
+
 Brunch Plugin to reversion files in index.html
 
 ## Summary
